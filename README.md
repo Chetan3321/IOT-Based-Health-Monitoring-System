@@ -74,3 +74,26 @@ In this project, you are building an **IoT-based Heart Rate Monitor** that integ
 - **More Sensors**: Add additional sensors like blood pressure or SpO2 for enhanced health monitoring.
 
 This project integrates hardware components, cloud platforms, and real-time data monitoring for a comprehensive health-tracking solution. Would you like to see the code for this setup?
+
+### Result
+
+- The IoT based health monitoring system using DS18B20, HRM2511E, Arduino Uno and NodeMCU ESP8266 would allow the user to monitor their health parameters remotely.
+- The DS18B20 temperature sensor would measure the body temperature of the user, while the HRM2511E heart rate monitor would measure the user's heart rate.
+- The data collected by these sensors would be transmitted wirelessly to the NodeMCU ESP8266 module, which would then transmit the data to a remote server for analysis.
+- The system would be able to provide real-time monitoring of the user's health parameters, allowing for early detection of any anomalies or health issues.
+- The system could also be configured to send alerts to the user or their healthcare provider if any readings fall outside of normal ranges.
+- Overall, the IoT based health monitoring system would provide a convenient and effective way for users to monitor their health remotely, helping to improve their overall health and wellbeing.
+
+### Conclusions:
+
+A is facility with instruments and equipment to make observations of conditions in order to provide information to make process of manufacturing with good quality.
+
+### Scope for future work
+
+1. Integration with AI and Machine Learning: The integration of AI and machine learning algorithms can enable the system to analyze the health data collected and provide personalized health recommendations to patients.
+2. Wearable devices: The use of wearable devices such as smartwatches and fitness bands can improve the accuracy and ease of monitoring health parameters.
+3. Cloud-based data storage: Storing the health data collected in the cloud can enable healthcare providers to access it from anywhere, improving patient care and management.
+4. Telemedicine: The integration of telemedicine services with the IoT based health monitoring system can enable remote consultations with healthcare providers, improving access to healthcare services.
+5. Data analytics: The analysis of health data collected over time can provide insights into the health trends and patterns, enabling healthcare providers to develop better treatment plans.
+
+
