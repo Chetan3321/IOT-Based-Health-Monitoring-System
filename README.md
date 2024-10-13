@@ -12,6 +12,7 @@ In this project, you are building an **IoT-based Heart Rate Monitor** that integ
    - The external power supplies mainly include AC to DC adapter otherwise a battery.
    - The adapter can be connected to the Arduino Uno by plugging into the power jack of the Arduino
      board.
+![Arduino_UNO] (Image/Arduino.jpg)
      
 3. **NodeMCU ESP8266**:
    - A Wi-Fi-enabled microcontroller used for data transmission and integration with IoT platforms.
