@@ -12,23 +12,28 @@ In this project, you are building an **IoT-based Heart Rate Monitor** that integ
    - The external power supplies mainly include AC to DC adapter otherwise a battery.
    - The adapter can be connected to the Arduino Uno by plugging into the power jack of the Arduino
      board.
-![Arduino_UNO] (Image/Arduino.jpg)
+![Arduino](https://github.com/user-attachments/assets/42935ef5-6131-4455-b098-f47a5e0e5c56)
      
 3. **NodeMCU ESP8266**:
    - A Wi-Fi-enabled microcontroller used for data transmission and integration with IoT platforms.
    - Connects to a Wi-Fi network to send heart rate and temperature data to a cloud service (MQTT dashboard or Ubidots).
+![NodeMCU](https://github.com/user-attachments/assets/61f8888e-f68c-4a24-a85b-02d93797b125)
+
 
 2. **Easy Pulse Sensor**:
    - Measures the heart rate by detecting the blood flow rate from the fingertip.
    - Outputs the heartbeats per minute (BPM).
+![Pulse monitor](https://github.com/user-attachments/assets/6451d38c-6180-4e37-8e33-c1dcca5be017)
 
 3. **Temperature Sensor (DS18B20)**:
    - Measures body temperature.
    - It's a digital temperature sensor with high accuracy.
+![Temperature sensor](https://github.com/user-attachments/assets/860e19be-0beb-46c9-9c1a-be7d5fdf2f47)
 
 4. **OLED Display**:
    - Displays real-time data for heart rate and temperature.
    - The values will be visible to the user instantly.
+![Oled display](https://github.com/user-attachments/assets/d44cb885-ada8-4adf-88a5-28bc2d858289)
 
 5. **MQTT Dashboard**:
    - A cloud platform used to visualize data remotely.
@@ -38,6 +43,13 @@ In this project, you are building an **IoT-based Heart Rate Monitor** that integ
 6. **Ubidots**:
    - A cloud IoT platform for data storage, analytics, and visualization.
    - You can upload the heart rate and temperature data to Ubidots using HTTP/MQTT protocol, allowing real-time tracking and historical data analysis.
+     
+### Block Diagram
+![Blockdig](https://github.com/user-attachments/assets/bb3218a0-f7d6-41fd-9c41-d988a7b97815)
+
+### Circuit Diagram
+![circuit digram](https://github.com/user-attachments/assets/edd310a9-0aaa-4f21-b1b5-a06559913bb9)
+
 
 ### Project Flow:
 1. **Hardware Setup**:
@@ -61,6 +73,7 @@ In this project, you are building an **IoT-based Heart Rate Monitor** that integ
 
 ### Practical Applications:
 - This IoT-based heart rate and temperature monitoring system can be used in remote healthcare applications, where patients' vitals can be tracked in real-time by healthcare providers.
+![demo 1](https://github.com/user-attachments/assets/47149d26-4585-4c6d-a107-f2696ab6a33e)
 
 ### Code Structure:
 - The code will likely involve libraries for:
@@ -84,6 +97,7 @@ This project integrates hardware components, cloud platforms, and real-time data
 - The system would be able to provide real-time monitoring of the user's health parameters, allowing for early detection of any anomalies or health issues.
 - The system could also be configured to send alerts to the user or their healthcare provider if any readings fall outside of normal ranges.
 - Overall, the IoT based health monitoring system would provide a convenient and effective way for users to monitor their health remotely, helping to improve their overall health and wellbeing.
+![Project image](https://github.com/user-attachments/assets/f6fd1ea5-eef6-48ee-99ea-5eadef2928c0)
 
 ### Conclusions:
 
