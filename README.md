@@ -1,4 +1,4 @@
-# IoT MQTT Based Heart Rate Monitor using ESP8266 & Arduino
+# IoT Based Health Monitor System
 
 In this project, you will create an **IoT-based Heart Rate Monitor** that combines multiple components to track both heart rate (BPM) and body temperature. 
 The device will display these values on an OLED screen while also transmitting the data to an MQTT dashboard for remote monitoring.
